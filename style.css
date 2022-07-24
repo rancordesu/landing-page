@@ -1,0 +1,33 @@
+* {
+    border: 1px solid green;
+}
+
+body, h2 {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 100px;
+}
+
+.h-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.h-content {
+    display: flex;
+    min-height: 20vmin;
+}
+
+.h-text,
+.h-img {
+    display: flex;
+    flex: 1;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: flex-end;
+}
+
