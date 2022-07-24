@@ -15,11 +15,13 @@ header {
 .h-top {
     display: flex;
     justify-content: space-between;
+    padding: 0 0 30px 0;
 }
 
 .h-content {
     display: flex;
     min-height: 20vmin;
+    padding: 0 0 30px 0;
 }
 
 .h-text,
