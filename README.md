@@ -1,1 +1,1 @@
-# landing-page
+this is less of a page and more of a great example of a house with its roof and walls held together forcefully by tape. I will go back and make a better one once I'm capable of it :)
