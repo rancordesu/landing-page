@@ -1,9 +1,7 @@
-* {
-    border: 1px solid green;
-}
-
-body, h2 {
+body,
+h2 {
     margin: 0;
+    flex-wrap: wrap;
 }
 
 header {
@@ -32,4 +30,80 @@ header {
     align-items: center;
     justify-content: flex-end;
 }
+
+/* BRICKS */
+
+/*.img {
+    width: 200px;
+    height: 200px;
+    border: 2px #3882f6 solid;
+    border-radius: 5px;
+}*/
+
+.bricks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    margin-bottom: 20px;
+}
+
+.img-holder {
+    display: flex;
+    gap: 10px;
+}
+
+.img-txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img {
+    display: flex;
+    border: 1px solid blue;
+    border-radius: 8px;
+    height: 100px;
+    width: 100px;
+
+}
+
+.img-txt>p {
+    font-size: smaller;
+    width: 100px;
+}
+
+/*QUOTES*/
+
+.q-content {
+    display: flex;
+    flex-direction: column;
+}
+
+/*SIGN UP*/
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up p {
+    margin: 0;
+}
+
+.s {
+    display: flex;
+    padding: 50px 100px;
+}
+
+
+.s-text {
+    display: flex;
+    padding: 10px 50px;
+    border-radius: 8px;
+    margin: 50px;
+}
+
+/*COPYRIGHT*/
 
